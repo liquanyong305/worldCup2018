@@ -7,7 +7,7 @@ if (userLang == 'zh-CN') {
 } else if (userLang == 'ja') {
 	lang = "JA"
 } else {
-	lang = "EN"
+	lang = "JA"
 }
 
 var voc = [ 
