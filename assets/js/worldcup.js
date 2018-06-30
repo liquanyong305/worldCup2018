@@ -123,7 +123,7 @@ window.addEventListener('load', function () {
 		// window.web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 		// (‘Unable to connect to Metamask’)
 		if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-			document.getElementById("msgArea").innerHTML = "Play this game you should install Trust Wallet app.<a href='faq_smart.html'/>&nbsp;FAQ</a></li>";
+			document.getElementById("msgArea").innerHTML = "Play this game you should install Trust Wallet app.<a href='faq.html'/>&nbsp;FAQ</a></li>";
 		} else {
 			document.getElementById("msgArea").innerHTML = "Play this game you should install Metamask on a browser like Chome or FireFox.<a href='faq.html'/>&nbsp;FAQ</a></li>";
 		}
