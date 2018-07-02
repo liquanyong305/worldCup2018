@@ -870,9 +870,9 @@ function doPrediction() {
 		}
 		var investValue = document.getElementById("inputInvest").value;
 		// input check
-		// No. [1 ～ 48]
-		if (matchId < 8 || matchId > 48) {
-			document.getElementById("doPredictionInfo").innerHTML = "[No.] must be between [8 ～ 48].";
+		// No. [52 ～ 64]
+		if (matchId < 51 || matchId > 64) {
+			document.getElementById("doPredictionInfo").innerHTML = "[No.] must be between [51 ～ 64].";
 		} else if (investValue < 0.001 || investValue > 100) {
 			// Wager [0.001 ETH ～ 100 ETH]
 			document.getElementById("doPredictionInfo").innerHTML = "[Wager] must be between [0.001 ETH ～ 100 ETH].";
